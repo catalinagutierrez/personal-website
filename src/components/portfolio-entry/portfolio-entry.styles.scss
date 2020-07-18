@@ -1,14 +1,21 @@
 .portfolio-entry {
+    align-items: center;
     background-color: #b89b9b27;
-    border-radius: 3px;
-    border: 2px solid #e6e6e6;
+    border: none;
     box-shadow: 3px 5px 5px #bebebe;
     color: #686868;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
     font-family: 'Quicksand', sans-serif;
     font-size: 22px;
     line-height: 35px;
+    margin-top: 1em;
+    padding: 0.3%;
     outline: none;
-    width: 30%;
-    margin: 2% 1% 2% 1%;
+    width: 30%;   
+}
+
+img {
+    width: 100%;
 }

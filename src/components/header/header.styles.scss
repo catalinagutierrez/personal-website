@@ -1,0 +1,21 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    float: right;
+    display: flex;
+    color: #9e9e9e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color:#b9999988;
+}
+
+

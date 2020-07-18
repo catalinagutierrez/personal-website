@@ -3,7 +3,7 @@ import './footer.styles.scss';
 
 const Footer = () => (
     <div className="footer">
-        <div class="footer-content">
+        <div className="footer-content">
                 <h2>
                     “Smile, breathe and go forward.”
                 </h2>
