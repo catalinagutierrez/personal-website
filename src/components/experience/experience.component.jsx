@@ -1,5 +1,5 @@
 import React from 'react';
-import './experience-collection.styles.scss';
+import './experience.styles.scss';
 
 import ExperienceEntry from '../experience-entry/experience-entry.component';
 
