@@ -12,20 +12,39 @@ class Portfolio extends React.Component {
                 {
                     id: '1',
                     name: 'BLE ECG Device',
-                    img: require('../../assets/thesisThumbnail.jpg'),
-                    alt: 'PCB Thumbnail'
+                    thumbnail: require('../../assets/thesisThumbnail.jpg'),
+                    alt: 'PCB Thumbnail',
+                    languages: 'C',
+                    tools: 'PIC16F877A, PicKit3, MPX5050',
+                    software: 'PIC C Compiler (CCS C)',
+                    repo: 'https://github.com/catalinagutierrez/Digital-Tourniquet',
+                    img: require('../../assets/thesisPCB.jpg'),
+                    description: 'This project came to life as a class project for my Digital Electronics course. It was a quick prototype to test the potential implementation of this technology at a local hospital. It involved a breadboard with the components soldered, an air cuff with a pressure sensor, and an on/off control algorythm to maintin the target pressure for an amount of time programmed by the user.<br><br>A more detailed design can be seem in the diagram:<br><br>'
+
                 },
                 {
                     id: '2',
                     name: 'Electronic Tourniquet',
+                    thumbnail: require('../../assets/tourniquetDiagram.jpg'),
+                    alt: 'Diagram Thumbnail',
+                    languages: 'C',
+                    tools: 'PIC16F877A, PicKit3, MPX5050',
+                    software: 'PIC C Compiler (CCS C)',
+                    repo: 'https://github.com/catalinagutierrez/Digital-Tourniquet',
                     img: require('../../assets/tourniquetDiagram.jpg'),
-                    alt: 'Diagram Thumbnail'
+                    description: 'This project came to life as a class project for my Digital Electronics course. It was a quick prototype to test the potential implementation of this technology at a local hospital. It involved a breadboard with the components soldered, an air cuff with a pressure sensor, and an on/off control algorythm to maintin the target pressure for an amount of time programmed by the user. A more detailed design can be seem in the diagram:'
                 },
                 {
                     id: '3',
                     name: 'Personal Website',
-                    img: require('../../assets/websiteThumbnail.jpg'),
-                    alt: 'Website Thumbnail'
+                    thumbnail: require('../../assets/websiteThumbnail.jpg'),
+                    alt: 'Website Thumbnail',
+                    languages: 'C',
+                    tools: 'PIC16F877A, PicKit3, MPX5050',
+                    software: 'PIC C Compiler (CCS C)',
+                    repo: 'https://github.com/catalinagutierrez/Digital-Tourniquet',
+                    img: '',
+                    description: 'This project came to life as a class project for my Digital Electronics course. It was a quick prototype to test the potential implementation of this technology at a local hospital. It involved a breadboard with the components soldered, an air cuff with a pressure sensor, and an on/off control algorythm to maintin the target pressure for an amount of time programmed by the user.<br><br>A more detailed design can be seem in the diagram:<br><br>'
                 }
             ]
         }

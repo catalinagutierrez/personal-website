@@ -3,3 +3,12 @@
     padding-top: 50vh;
     text-align: center;
 }
+
+@media screen and (max-width: 900px)
+{     
+    .introduction-content {
+        padding-top: 30vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

@@ -1,6 +1,9 @@
 .portfolio-entry {
     align-items: center;
+    background-color: #b89b9b27;
+    border: none;
     box-shadow: 3px 5px 5px #bebebe;
+    color: #686868;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -8,38 +11,13 @@
     font-size: 22px;
     line-height: 35px;
     margin-top: 1em;
-    padding: 0;
+    padding: 0.3%;
+    outline: none;
     width: 30%;   
-}
-
-button {
-    background-color: lavenderblush;
-    background-color: #b89b9b27;
-    border: none;
-    color: #686868;
-    outline: none;
-}
-
-button:focus {
-    border: none;
-    outline: none;
 }
 
 img {
     width: 100%;
-}
-
-.modal {
-    color: #686868;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    line-height: 28px;
-    text-align: justify;
-}
-
-.modal-dialog {
-    max-width: 75%;
 }
 
 @media screen and (max-width: 499px){

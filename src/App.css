@@ -38,3 +38,27 @@ hr {
   height: 1px;
   border: none;
 }
+
+@media screen and (max-width: 499px)
+{
+  h1 {
+    line-height: 60px;
+  }
+
+  h3 {
+    text-align: left;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px)
+{
+  h1 {
+    line-height: 60px;
+  }
+
+  h3 {
+    text-align: left;
+    line-height: 40px;
+  }
+}
