@@ -23,7 +23,10 @@ class PortfolioEntry extends React.Component {
                     {this.props.name}
                 </button>
 
-                <Modal show={this.state.showHide}>
+                <Modal
+                    show={this.state.showHide}
+                    onHide={() => this.handleModalShowHide()}
+                >
                     <Modal.Header
                         closeButton
                         onClick={() => this.handleModalShowHide()}

@@ -6,21 +6,21 @@
 }
 
 .header a {
-    float: right;
     display: flex;
     color: #9e9e9e;
-    text-align: center;
+    float: right;
+    font-size: 32px;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
 }
 
 .header a:hover {
-    color:#b9999988;
+    color: #b9999988;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .header a {
         font-size: 36px;
     }
 }
-

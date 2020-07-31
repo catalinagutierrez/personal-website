@@ -18,6 +18,7 @@ button {
     border: none;
     color: #686868;
     outline: none;
+    padding: 0;
 }
 
 button:focus {
@@ -36,10 +37,26 @@ img {
     font-weight: 100;
     line-height: 28px;
     text-align: justify;
-}
 
-.modal-dialog {
-    max-width: 75%;
+    .modal-dialog {
+        max-width: 75%;
+    }
+
+    .modal-title {
+        padding: 5% 5% 0 5%;
+    }
+
+    .modal-body {
+        max-width: 90%;
+        align-self: center;
+    }
+
+    button.close {
+        align-content: center;
+        font-size: 80px;
+        font-weight: 100;
+        margin-right: 5%;
+    }
 }
 
 @media screen and (max-width: 499px) {
