@@ -9,7 +9,7 @@
     line-height: 35px;
     margin-top: 1em;
     padding: 0;
-    width: 30%;   
+    width: 30%;
 }
 
 button {
@@ -42,15 +42,31 @@ img {
     max-width: 75%;
 }
 
-@media screen and (max-width: 499px){
+@media screen and (max-width: 499px) {
     .portfolio-entry {
         align-self: center;
         width: 80%;
     }
+
+    .modal {
+        text-align: left;
+    }
+
+    .modal-dialog {
+        max-width: 100%;
+    }
 }
 
-@media screen and (min-width: 500px) and (max-width: 900px){
+@media screen and (min-width: 500px) and (max-width: 900px) {
     .portfolio-entry {
         width: 48%;
+    }
+
+    .modal {
+        text-align: left;
+    }
+
+    .modal-dialog {
+        max-width: 85%;
     }
 }
