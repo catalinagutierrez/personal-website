@@ -8,11 +8,11 @@ const Experience = () => (
             <article className='experience-entry'>
                 <div className='experience-label'>
                     <h2>
-                        Northeastern University <span>Januray 2021 - ?</span>
+                        Northeastern University <span>Januray 2021 - !</span>
                     </h2>
                     <p>
-                        I will start a masters degree in computer science in
-                        Boston in spring 2021.
+                        Moving to Boston to start a masters degree in computer
+                        science in spring 2021.
                     </p>
                 </div>
             </article>
@@ -22,16 +22,13 @@ const Experience = () => (
                         Escafandra <span>July 2019 - Present</span>
                     </h2>
                     <p>
-                        I currently work remotely part-time as a full stack
-                        developer as part of a small team. We offer a web based
-                        application that health providers utilize to organize
-                        patient records, medical histories, and financial
-                        information.
-                        <br />
-                        <br />
-                        Languages: C#, JavaScript, HTML CSS, SQL Server
-                        <br />
-                        Framework: ASP.NET MVC
+                        Currently working remotely part-time as a full stack
+                        developer. The company offers a web based application
+                        that health providers utilize to organize patient
+                        records, medical histories, and financial information
+                        using the ASP.NET MVC 5 framework. I work with
+                        JavaScript, HTML and CSS in the frontend, and C# and SQL
+                        Server in the backend.
                     </p>
                 </div>
             </article>
@@ -42,13 +39,10 @@ const Experience = () => (
                         <span>January 2019 - June 2019</span>
                     </h2>
                     <p>
-                        I worked as research assistant at Miller Laboratory of
-                        Limb Motor Control, contributing to research by setting
-                        up a motion tracking system using multiple cameras for
-                        3D reconstruction of hand kinematics.
-                        <br />
-                        <br />
-                        Languages: Python
+                        Worked as research assistant at Miller Laboratory of
+                        Limb Motor Control, contributing by setting up a motion
+                        tracking system using multiple cameras for 3D
+                        reconstruction of hand kinematics.
                     </p>
                 </div>
             </article>
@@ -58,7 +52,7 @@ const Experience = () => (
                         EIA University <span>July 2014 - December 2019</span>
                     </h2>
                     <p>
-                        Graduated from my bachelors in biomedical enigneering.
+                        Obtained my bachelors degree in biomedical engineering.
                     </p>
                 </div>
             </article>
