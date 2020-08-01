@@ -1,4 +1,66 @@
-.experience-collection {
-    display: table-row;
-    border-spacing: 0 4vh;
+.experience-body {
+    position: relative;
+
+    .experience-entry {
+        position: relative;
+        margin-left: 30px;
+        margin-top: 40px;
+
+        .experience-label {
+            position: relative;
+            padding-left: 10px;
+            margin-left: 50px;
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        .experience-label:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 9px 9px 9px 0;
+            border-color: transparent #b89b9b6e transparent transparent;
+            left: 0;
+            top: 10px;
+            margin-left: -9px;
+        }
+    }
+}
+
+.experience-body:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background-color: lavenderblush;
+    background-color: #b89b9b6e;
+    top: 20px;
+    bottom: 20px;
+    margin-left: 29px;
+}
+
+@media screen and (max-width: 900px) {
+    .experience-body {
+        text-align: justify;
+
+        .experience-entry {
+            margin-left: 5px;
+
+            .experience-label {
+                span {
+                    margin: 5px;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .experience-body:before {
+        margin-left: 10px;
+    }
 }

@@ -20,13 +20,13 @@ const AboutMe = () => (
             <br />
             In 2019 I began my professional journey in Chicago, where I
             completed an internship at Northwestern University. At the time I
-            was in the midst of completing my thesis project, in which I
-            programmed the embedded software for a biomedical device prototype.
-            It was then that I realized that development was not only a very
-            alluring career path, but my true passion. I would work full time at
-            the lab and part time as a server, yet still come home late at night
-            eager to continue working on my thesis to implement new ideas that
-            had surfaced during the day.
+            was in the midst of completing my undergraduate thesis project, in
+            which I programmed the embedded software for a biomedical device
+            prototype. It was then that I realized that development was not only
+            a fun, but my passion. I would work full time at the lab and part
+            time as a server, yet still come home late at night eager to
+            continue working on my thesis to implement new ideas that had
+            surfaced during the day.
             <br />
             <br />
             Six months prior to graduating, I started working as a web
@@ -34,15 +34,8 @@ const AboutMe = () => (
             world of software engineering. Aside from the technical skills,
             working with a small, closely knit team has allowed me to get
             involved in tasks with great responsibility. I have had the
-            opportunity to see my work being deployed out there, where it has
-            the potential of impacting lives.
-            <br />
-            <br />
-            In my free time, when I'm not practicing yoga or reading, I like to
-            learn on my own. My latest interest is ReactJS, and I have completed
-            a Complete React Developer course online to learn all about the most
-            important tools it has to offer. Currently I'm working on personal
-            projects to hone my skills.
+            opportunity to see my work evolve from ideas all the way into
+            deployment.
             <br />
             <br />I have always found great joy in tackling problems by
             searching for pragmatic, straightforward solutions. I believe in the

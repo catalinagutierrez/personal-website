@@ -1,8 +1,10 @@
 .header {
     background-color: rgb(255, 255, 255);
+    padding-right: 2%;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .header a {
@@ -17,10 +19,4 @@
 
 .header a:hover {
     color: #b9999988;
-}
-
-@media screen and (max-width: 900px) {
-    .header a {
-        font-size: 36px;
-    }
 }
