@@ -19,16 +19,15 @@ const Experience = () => (
             <article className='experience-entry'>
                 <div className='experience-label'>
                     <h2>
-                        Escafandra <span>July 2019 - Present</span>
+                        Escafandra <span>July 2019 - August 2020</span>
                     </h2>
                     <p>
-                        Currently working remotely part-time as a full stack
-                        developer. The company offers a web based application
-                        that health providers utilize to organize patient
-                        records, medical histories, and financial information
-                        using the ASP.NET MVC 5 framework. I work with
-                        JavaScript, HTML and CSS in the frontend, and C# and SQL
-                        Server in the backend.
+                        Wokred remotely as a full stack developer. The company
+                        offers a web based application that health providers
+                        utilize to organize patient records, medical histories,
+                        and financial information using the ASP.NET MVC 5
+                        framework. I work with JavaScript, HTML and CSS in the
+                        frontend, and C# and SQL Server in the backend.
                     </p>
                 </div>
             </article>

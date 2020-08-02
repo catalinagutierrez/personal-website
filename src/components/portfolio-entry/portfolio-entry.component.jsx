@@ -40,8 +40,6 @@ class PortfolioEntry extends React.Component {
                         <br />
                         <b>Tools used:</b> {this.props.tools}
                         <br />
-                        <b>Software used:</b> {this.props.software}
-                        <br />
                         <br />
                         {this.props.description}
                         <br />
