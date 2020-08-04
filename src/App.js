@@ -5,18 +5,29 @@ import BodySection from './components/body-section/body-section.component';
 import Footer from './components/footer/footer.component';
 import Header from './components/header/header.component';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <IntroductionSection />
-      <BodySection type='AboutMe'/>
-      <BodySection type='Experience'/>
-      <BodySection type='Portfolio'/>
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+    componentDidMount() {
+        AOS.init({
+            duration: 2000,
+            once: true,
+        });
+    }
+
+    render() {
+        return (
+            <div className='App'>
+                <Header />
+                <IntroductionSection />
+                <BodySection type='AboutMe' />
+                <BodySection type='Experience' />
+                <BodySection type='Portfolio' />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;

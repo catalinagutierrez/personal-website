@@ -12,6 +12,7 @@ class Portfolio extends React.Component {
                 {
                     id: '1',
                     name: 'Personal Website',
+                    animationDelay: 0,
                     thumbnail: require('../../assets/websiteThumbnail.jpg'),
                     alt: 'Website Thumbnail',
                     languages: 'ReactJS, SASS',
@@ -24,6 +25,7 @@ class Portfolio extends React.Component {
                 {
                     id: '2',
                     name: 'BLE ECG Device',
+                    animationDelay: 500,
                     thumbnail: require('../../assets/thesisThumbnail.jpg'),
                     alt: 'PCB Thumbnail',
                     languages: 'C, MATLAB',
@@ -37,6 +39,7 @@ class Portfolio extends React.Component {
                 {
                     id: '3',
                     name: 'Electronic Tourniquet',
+                    animationDelay: 1000,
                     thumbnail: require('../../assets/tourniquetDiagram.jpg'),
                     alt: 'Diagram Thumbnail',
                     languages: 'C',

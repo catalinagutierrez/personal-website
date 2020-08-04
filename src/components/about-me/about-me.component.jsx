@@ -4,7 +4,7 @@ import './about-me.styles.scss';
 const AboutMe = () => (
     <div className='about-me'>
         <h3>About Me</h3>
-        <div className='about-body'>
+        <div className='about-body' data-aos='fade-up'>
             I'm currently a full stack developer on my way to start my masters
             degree in computer science.
             <br />

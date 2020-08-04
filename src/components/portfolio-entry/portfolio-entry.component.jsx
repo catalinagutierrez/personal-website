@@ -17,11 +17,17 @@ class PortfolioEntry extends React.Component {
 
     render() {
         return (
-            <div className='portfolio-entry'>
-                <button onClick={() => this.handleModalShowHide()}>
-                    <img src={this.props.thumbnail} alt={this.props.alt} />
-                    {this.props.name}
-                </button>
+            <div
+                className='portfolio-entry'
+                data-aos='fade-up'
+                data-aos-delay={this.props.animationDelay}
+            >
+                <div>
+                    <button onClick={() => this.handleModalShowHide()}>
+                        <img src={this.props.thumbnail} alt={this.props.alt} />
+                        {this.props.name}
+                    </button>
+                </div>
 
                 <Modal
                     show={this.state.showHide}
