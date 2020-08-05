@@ -26,13 +26,13 @@ const Experience = () => (
                             Escafandra <span>July 2019 - August 2020</span>
                         </h2>
                         <p>
-                            Wokred remotely as a full stack developer. The
+                            Worked remotely as a full stack developer. The
                             company offers a web based application that health
                             providers utilize to organize patient records,
                             medical histories, and financial information using
-                            the ASP.NET MVC 5 framework. I work with JavaScript,
-                            HTML and CSS in the frontend, and C# and SQL Server
-                            in the backend.
+                            the ASP.NET MVC 5 framework. I worked with
+                            JavaScript, HTML and CSS in the frontend, and C# and
+                            SQL Server in the backend.
                         </p>
                     </div>
                 </article>
