@@ -23,8 +23,21 @@ class Portfolio extends React.Component {
                 },
                 {
                     id: '2',
+                    name: 'Pet Adoption Website',
+                    animationDelay: 200,
+                    thumbnail: require('../../assets/animalRescueThumbnail.jpg'),
+                    alt: 'Website Thumbnail',
+                    languages: 'ReactJS, Redux, Firebase, Stripe',
+                    tools: 'Visual Studio Code',
+                    description:
+                        'I grew curious about modern JavaScript frameworks, so I decided to learn ReactJS on my own by taking an online course. After completing the master project, which was a fashion e-commerce website, I decided to expand upon it and create a similar app but using my own ideas and different functionality.',
+                    imageCaption:
+                        'I used heroku to deploy the most recent version of the project. It can be accessed at https://cat-animal-rescue.herokuapp.com/',
+                },
+                {
+                    id: '3',
                     name: 'BLE ECG Device',
-                    animationDelay: 500,
+                    animationDelay: 400,
                     thumbnail: require('../../assets/thesisThumbnail.jpg'),
                     alt: 'PCB Thumbnail',
                     languages: 'C, MATLAB',
@@ -34,20 +47,6 @@ class Portfolio extends React.Component {
                         "My bachelor's thesis project was the design and prototyping of a cardiac biopotential recording device that uses two synchronized, independent signal readings from the patients chest using Bluetooth Low Energy to transmit data wirelessly to a central processing unit.",
                     imageCaption:
                         'The overall functionality of the device is shown in the following diagram:',
-                },
-                {
-                    id: '3',
-                    name: 'Electronic Tourniquet',
-                    animationDelay: 1000,
-                    thumbnail: require('../../assets/tourniquetDiagram.jpg'),
-                    alt: 'Diagram Thumbnail',
-                    languages: 'C',
-                    tools: 'PIC C Compiler (CCS C)',
-                    img: require('../../assets/tourniquetDiagram.jpg'),
-                    description:
-                        'This project came to life as a class project for my Digital Electronics course. It was a quick prototype to test the potential implementation of this technology at a local hospital. It involved a breadboard with the components soldered, an air cuff with a pressure sensor, and an on/off control algorythm to maintain the target pressure for the amount of time programmed by the user.',
-                    imageCaption:
-                        'A more detailed design can be seem in the diagram:',
                 },
             ],
         };
