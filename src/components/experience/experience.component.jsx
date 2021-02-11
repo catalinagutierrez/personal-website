@@ -10,7 +10,7 @@ const Experience = () => (
                     <div className='experience-label'>
                         <h2>
                             Northeastern University{' '}
-                            <span>January 2021 - May 2023</span>
+                            <span>January 2021 - December 2022</span>
                         </h2>
                         <p>
                             Currently working towards a master's degree in

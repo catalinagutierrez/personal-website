@@ -5,8 +5,8 @@ const AboutMe = () => (
     <div className='about-me'>
         <h3>About Me</h3>
         <div className='about-body' data-aos='fade-up'>
-            I'm currently a full stack developer on my way to start my masters
-            degree in computer science.
+            I'm currently pursuing a master's degree in computer science with
+            the hope of becoming a software developer.
             <br />
             <br />
             I spent the better part of my bachelors in the medical
@@ -29,7 +29,7 @@ const AboutMe = () => (
             new ideas that had surfaced during the day.
             <br />
             <br />
-            Six months prior to graduating, I started working as a web
+            Six months prior to graduating, I started working as a full stack web
             developer. I was thrilled to be able to explore another facet of the
             world of software engineering. Working with a small, closely knit
             team allowed me to see my work evolve from ideas all the way into
