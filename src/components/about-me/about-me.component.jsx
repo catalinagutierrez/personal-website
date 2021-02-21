@@ -11,11 +11,12 @@ const AboutMe = () => (
             <br />
             I spent the better part of my bachelors in the medical
             instrumentation lab. I was constatly involved in projects where I
-            programmed FPGAs and embedded systems on breadboards to acquire and
-            process all kinds of biological signals. These projects helped me
+            programmed FPGAs and embedded systems to acquire and
+            process all kinds of biological signals. These hands on
+            computer engineering projects helped me
             truly understand the logic behind programming, which I had the
-            pleasure of experiencing through a variety of languages ranging from
-            Assembler to MATLAB.
+            pleasure of experiencing through a variety of languages including
+            Assembler and C.
             <br />
             <br />
             In 2019 I began my professional journey in Chicago, where I
@@ -33,12 +34,16 @@ const AboutMe = () => (
             developer. I was thrilled to be able to explore another facet of the
             world of software engineering. Working with a small, closely knit
             team allowed me to see my work evolve from ideas all the way into
-            deployment. This was where I realized I wanted to focus my love for
-            programming towards web development.
+            deployment.
             <br />
-            <br />I have always found great joy in tackling problems by
-            searching for pragmatic, straightforward solutions. I believe in the
-            power of simplicity.
+            <br />
+            I have always found great joy in tackling problems by
+            searching for pragmatic, straightforward solutions. Software is a
+            niche where I can use my creativity to do just that, while 
+            also learning and exploring different contexts in a world
+            where technology is finding its way to every aspect of our lives.
+            
+            {/* I believe in the power of simplicity. */}
         </div>
     </div>
 );

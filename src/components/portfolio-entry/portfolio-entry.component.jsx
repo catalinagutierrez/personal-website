@@ -42,15 +42,14 @@ class PortfolioEntry extends React.Component {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <b>Languages used:</b> {this.props.languages}
-                        <br />
-                        <b>Tools used:</b> {this.props.tools}
+                        <b>Languages and tools used:</b> {this.props.languages}
                         <br />
                         <br />
                         {this.props.description}
                         <br />
                         <br />
-                        {this.props.imageCaption}
+                        {this.props.imageCaption} 
+                        {this.props.link ? <a href={this.props.link}>here.</a> : null}
                         <br />
                         <br />
                         <img src={this.props.img} alt='' />
