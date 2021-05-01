@@ -11,10 +11,13 @@ const IntroductionContent = () => (
                     delay: 40
                 }}
                 onInit={(typewriter) => {
-                    typewriter.pauseFor(300)
-                    .typeString("<span style='font-size:100px'>Hi, I'm Catalina.</span>")
-                    .pauseFor(1500)
-                    .typeString("<br>A biomedical engineer who fell in<br>love with software development.")
+                    typewriter.pauseFor(400)
+                    .typeString("<span style='font-size:80px'>Hi.</span>")
+                    .pauseFor(300)
+                    .typeString("<span style='font-size:80px'> I'm Catalina.</span>")
+                    .pauseFor(1200)
+                    .changeDelay(30)
+                    .typeString("<br>A biomedical engineer who fell in love with software development.")
                     .start();
                 }}
             />

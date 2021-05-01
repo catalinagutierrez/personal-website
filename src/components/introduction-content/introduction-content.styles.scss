@@ -1,8 +1,12 @@
 .introduction-content {
     // color: rgb(131,81,110);
-    padding-top: 60vh;
+    // padding-top: 60vh;
     padding-left: 10%;
+    padding-right: 30%;
     text-align: left;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
 }
 
 @media screen and (max-width: 900px)

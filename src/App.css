@@ -31,7 +31,7 @@ body {
 h1 {
     color: rgb(87, 87, 87);
     font-weight: 300;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2 {
@@ -57,7 +57,7 @@ h4 {
 
 hr {
     width: 30%;
-    background-color: #a1a1a1;
+    background-color: #d4d4d4;
     height: 1px;
     border: none;
 }
