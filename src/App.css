@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap'); 
+
+/* 
+Para usarlas
+font-family: 'Special Elite', cursive;
+font-family: 'Lekton', sans-serif; 
+
+font-family: 'Quicksand', sans-serif;
+*/
+
 html,
 body {
     width: 100% !important;
@@ -7,8 +19,9 @@ body {
 }
 
 .App {
-    color: #686868;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #fffdf8;
+    color: #6e6e6e;
+    font-family: 'Lekton', sans-serif;
     font-size: 22px;
     font-weight: 100;
     line-height: 28px;
@@ -16,28 +29,30 @@ body {
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 70px;
-    margin-bottom: 5px;
+    color: rgb(87, 87, 87);
+    font-weight: 300;
+    font-size: 50px;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 30px;
-}
-
-h3 {
+    color: rgb(87, 87, 87);
     font-weight: 400;
     font-size: 40px;
-    color: rgb(131, 81, 110);
     margin: 0px 0px 10px 0px;
 }
 
+h3 {
+    color: rgb(87, 87, 87);
+    font-weight: 300;
+    font-size: 30px;
+    display: inline;
+}
+
 h4 {
-    font-weight: 500;
-    font-size: 25px;
-    color: #686868;
-    margin-bottom: 5px;
+    color: rgb(141, 141, 141);
+    font-weight: 300;
+    font-size: 20px;
+    display: inline;
 }
 
 hr {

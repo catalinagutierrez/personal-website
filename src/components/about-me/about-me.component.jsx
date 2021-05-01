@@ -1,10 +1,22 @@
 import React from 'react';
 import './about-me.styles.scss';
+import Typewriter from 'typewriter-effect';
 
 const AboutMe = () => (
     <div className='about-me'>
-        <h3>About Me</h3>
-        <div className='about-body' data-aos='fade-up'>
+        <h2>
+            <Typewriter 
+                options={{
+                    autoStart: false,
+                    delay: 100
+                }}
+                onInit={(typewriter) => {
+                    typewriter.typeString("About Me.")
+                    .start();
+                }}
+            />
+        </h2>
+        <div className='about-body' data-aos='fade-in'>
             I'm currently pursuing a master's degree in computer science with
             the hope of becoming a software developer.
             <br />

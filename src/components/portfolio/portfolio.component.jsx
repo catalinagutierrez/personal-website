@@ -1,5 +1,6 @@
 import React from 'react';
 import './portfolio.styles.scss';
+import Typewriter from 'typewriter-effect';
 
 import PortfolioEntry from '../portfolio-entry/portfolio-entry.component';
 
@@ -55,7 +56,18 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div>
-                <h3>My Portfolio </h3>
+                <h2>
+                    <Typewriter 
+                        options={{
+                            autoStart: false,
+                            delay: 100
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter.typeString("My Portfolio.")
+                            .start();
+                        }}
+                    />
+                </h2>
                 <div className='portfolio'>
                     {this.state.portfolio.map(({ id, ...otherItemProps }) => (
                         <PortfolioEntry key={id} {...otherItemProps} />
