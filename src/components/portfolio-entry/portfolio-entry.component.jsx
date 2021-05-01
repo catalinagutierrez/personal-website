@@ -1,63 +1,55 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './portfolio-entry.styles.scss';
 import Modal from 'react-bootstrap/Modal';
 
-class PortfolioEntry extends React.Component {
-    constructor(props) {
-        super(props);
+const PortfolioEntry = (props) => {
+    const [show, setShow] = useState(false);
 
-        this.state = {
-            showHide: false,
-        };
+    const handleModalShowHide = () => {
+        setShow(!show)
     }
 
-    handleModalShowHide() {
-        this.setState({ showHide: !this.state.showHide });
-    }
-
-    render() {
-        return (
-            <div
-                className='portfolio-entry'
-                data-aos='fade-up'
-                data-aos-delay={this.props.animationDelay}
-            >
-                <div>
-                    <button onClick={() => this.handleModalShowHide()}>
-                        <img src={this.props.thumbnail} alt={this.props.alt} />
-                        {this.props.name}
-                    </button>
-                </div>
-
-                <Modal
-                    show={this.state.showHide}
-                    onHide={() => this.handleModalShowHide()}
-                >
-                    <Modal.Header
-                        closeButton
-                        onClick={() => this.handleModalShowHide()}
-                    >
-                        <Modal.Title>
-                            <h2>{this.props.name}</h2>
-                        </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <b>Languages and tools used:</b> {this.props.languages}
-                        <br />
-                        <br />
-                        {this.props.description}
-                        <br />
-                        <br />
-                        {this.props.imageCaption} 
-                        {this.props.link ? <a href={this.props.link}>here.</a> : null}
-                        <br />
-                        <br />
-                        <img src={this.props.img} alt='' />
-                    </Modal.Body>
-                </Modal>
+    return (
+        <div
+            className='portfolio-entry'
+            data-aos='fade-up'
+            data-aos-delay={props.animationDelay}
+        >
+            <div>
+                <button onClick={() => handleModalShowHide()}>
+                    <img src={props.thumbnail} alt={props.alt} />
+                    {props.name}
+                </button>
             </div>
-        );
-    }
+
+            <Modal
+                show={show}
+                onHide={() => handleModalShowHide()}
+            >
+                <Modal.Header
+                    closeButton
+                    onClick={() => handleModalShowHide()}
+                >
+                    <Modal.Title>
+                        <h2>{props.name}</h2>
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <b>Languages and tools used:</b> {props.languages}
+                    <br />
+                    <br />
+                    {props.description}
+                    <br />
+                    <br />
+                    {props.imageCaption} 
+                    {props.link ? <a href={props.link}>here.</a> : null}
+                    <br />
+                    <br />
+                    <img src={props.img} alt='' />
+                </Modal.Body>
+            </Modal>
+        </div>
+    );
 }
 
 export default PortfolioEntry;
