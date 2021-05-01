@@ -14,7 +14,7 @@ const Portfolio = (props) =>{
     const portfolio = [
         {
             id: '1',
-            name: 'Pet Adoption Website',
+            name: 'pet adoption website',
             animationDelay: 0,
             thumbnail: require('../../assets/animalRescueThumbnail.jpg'),
             alt: 'Website Thumbnail',
@@ -27,7 +27,7 @@ const Portfolio = (props) =>{
         },
         {
             id: '2',
-            name: 'BLE ECG Device',
+            name: 'BLE ECG device',
             animationDelay: 200,
             thumbnail: require('../../assets/thesisThumbnail.jpg'),
             alt: 'PCB Thumbnail',
@@ -41,7 +41,7 @@ const Portfolio = (props) =>{
         },
         {
             id: '3',
-            name: 'Mini-Shell',
+            name: 'mini-shell',
             animationDelay: 400,
             thumbnail: require('../../assets/shellThumbnail.jpg'),
             alt: 'Mini Shell Thumbnail',
@@ -63,7 +63,7 @@ const Portfolio = (props) =>{
                             delay: 100
                         }}
                         onInit={(typewriter) => {
-                            typewriter.typeString("My Portfolio.")
+                            typewriter.typeString("my work at a glance.")
                             .start();
                         }}
                     />

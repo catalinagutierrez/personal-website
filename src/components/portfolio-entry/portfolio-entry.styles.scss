@@ -4,35 +4,38 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lekton', sans-serif;
     font-size: 22px;
     line-height: 35px;
     margin-top: 1em;
     padding: 0;
     width: 30%;
+    border-radius: 7px;
 }
 
 button {
-    background-color: lavenderblush;
-    background-color: #b89b9b27;
+    background-color: #fffdf8;
     border: none;
     color: #686868;
     outline: none;
     padding: 0;
+    border-radius: 7px;
 }
 
 button:focus {
     border: none;
     outline: none;
+    border-radius: 7px;
 }
 
 img {
     width: 100%;
+    border-radius: 7px;
 }
 
 .modal {
     color: #686868;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lekton', sans-serif;
     font-size: 22px;
     font-weight: 100;
     line-height: 28px;

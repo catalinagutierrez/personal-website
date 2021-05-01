@@ -20,16 +20,18 @@ const AboutMe = (props) => {
                                 delay:120
                             }}
                             onInit={(typewriter) => {
-                                typewriter.typeString("About Me.")
+                                typewriter.typeString("about me.")
                                 .start();
                             }}
                         />
                     </h2>
                 </div> 
             : 
-                <h2></h2> 
+                <h2> </h2> 
             }
                 <div className='about-body' data-aos='fade-in'>
+                    <img src={require('../../assets/photo.jpg')} alt="photo of me :-)" />
+                    <br/>
                     I'm currently pursuing a master's degree in computer science with
                     the hope of becoming a software developer.
                     <br />

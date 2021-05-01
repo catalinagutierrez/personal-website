@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect';
 
 const IntroductionContent = () => (
     <div className='introduction-content'>
-        <h1>
             <Typewriter 
                 options={{
                     autoStart: false,
@@ -12,16 +11,15 @@ const IntroductionContent = () => (
                 }}
                 onInit={(typewriter) => {
                     typewriter.pauseFor(400)
-                    .typeString("<span style='font-size:80px'>Hi.</span>")
+                    .typeString("<span class='head'>hi,</span>")
                     .pauseFor(300)
-                    .typeString("<span style='font-size:80px'> I'm Catalina.</span>")
+                    .typeString("<span class='head'> i'm Catalina.</span>")
                     .pauseFor(1200)
                     .changeDelay(30)
-                    .typeString("<br>A biomedical engineer who fell in love with software development.")
+                    .typeString("<span class='sub'><br>a biomedical engineer who fell in love with software development.</span>")
                     .start();
                 }}
             />
-        </h1>
     </div>
 );
 

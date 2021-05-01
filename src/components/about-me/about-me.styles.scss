@@ -8,6 +8,12 @@
     column-gap: 40px;
 }
 
+.about-me img {
+    max-width: 70%;
+    margin: 0 15% 25px 15%;
+    border-radius: 7px;
+}
+
 @media screen and (max-width: 900px) {
     .about-body {
         column-count: 1;

@@ -20,7 +20,7 @@ const Experience = (props) => {
                                 delay: 100
                             }}
                             onInit={(typewriter) => {
-                                typewriter.typeString("My Journey So Far.")
+                                typewriter.typeString("my journey so far.")
                                 .start();
                             }}
                         />
@@ -34,7 +34,7 @@ const Experience = (props) => {
                     <article className='experience-entry'>
                         <div className='experience-label'>
                             <h3>
-                                Northeastern University{' '}
+                                northeastern university{' '}
                             </h3>
                             <h4>January 2021 - December 2022</h4>
                             <p>
@@ -48,7 +48,7 @@ const Experience = (props) => {
                     <article className='experience-entry'>
                         <div className='experience-label'>
                             <h3>
-                                Escafandra{' '}
+                                escafandra{' '}
                             </h3>
                             <h4>July 2019 - August 2020</h4>
                             <p>
@@ -67,7 +67,7 @@ const Experience = (props) => {
                     <article className='experience-entry'>
                         <div className='experience-label'>
                             <h3>
-                                Northwestern University{' '}
+                                northwestern university{' '}
                             </h3>
                             <h4>January 2019 - June 2019</h4>
                             <p>
@@ -83,7 +83,7 @@ const Experience = (props) => {
                     <article className='experience-entry'>
                         <div className='experience-label'>
                             <h3>
-                                EIA University{' '}
+                                EIA university{' '}
                             </h3>
                             <h4>July 2014 - December 2019</h4>
                             <p>

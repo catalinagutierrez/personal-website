@@ -17,7 +17,7 @@ const Footer = () => (
                         .start();
                     }}
                 /> */}
-                Contact me any time, I'm happy to connect.
+                contact me any time, i'm happy to connect.
                 <br />
             </h3>
             cgutierrezm95@gmail.com
