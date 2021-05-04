@@ -29,7 +29,7 @@ const AboutMe = (props) => {
         <h2> </h2>
       )}
       <div className="about-body" data-aos="fade-in">
-        <img src={require("../../assets/photo.jpg")} alt="photo of me :-)" />
+        <img src={require("../../assets/photo.jpg")} alt="stylish selfie" />
         <br />
         I'm currently pursuing a master's degree in computer science with the
         hope of becoming a software developer.

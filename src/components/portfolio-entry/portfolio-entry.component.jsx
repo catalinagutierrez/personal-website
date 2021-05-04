@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./portfolio-entry.styles.scss";
 import Modal from "react-bootstrap/Modal";
 

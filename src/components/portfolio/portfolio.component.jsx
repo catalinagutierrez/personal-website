@@ -51,6 +51,18 @@ const Portfolio = (props) => {
         "Implemented a personalized, simple version of a shell that executes UNIX commands. It includes signal handling for termination, pipelining between two processes, and basic built in functions.",
       link: null,
     },
+    {
+      id: "4",
+      name: "mastermind game",
+      animationDelay: 600,
+      thumbnail: require("../../assets/mastermindThumbnail.png"),
+      alt: "Mastermind Thumbnail",
+      languages: "Python",
+      img: "",
+      description:
+        "I created a Python version of the Mastermind game where the player guesses a 4 color code. It uses Turtle for the UI and keeps track of the scoreboard by persisting data in a text file.",
+      link: null,
+    },
   ];
 
   return (
