@@ -18,6 +18,7 @@ const AboutMe = (props) => {
               options={{
                 autoStart: false,
                 delay: 120,
+                cursor: "",
               }}
               onInit={(typewriter) => {
                 typewriter.typeString("about me.").start();
@@ -30,7 +31,6 @@ const AboutMe = (props) => {
       )}
       <div className="about-body" data-aos="fade-in">
         <img src={require("../../assets/photo.jpg")} alt="stylish selfie" />
-        <br />
         I'm currently pursuing a master's degree in computer science with the
         hope of becoming a software developer.
         <br />

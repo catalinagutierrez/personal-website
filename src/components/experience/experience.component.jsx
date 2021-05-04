@@ -18,6 +18,7 @@ const Experience = (props) => {
               options={{
                 autoStart: false,
                 delay: 100,
+                cursor: "",
               }}
               onInit={(typewriter) => {
                 typewriter.typeString("my journey so far.").start();

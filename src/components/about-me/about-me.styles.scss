@@ -6,12 +6,14 @@
   padding-top: 2%;
   column-count: 2;
   column-gap: 40px;
+  float: right;
 }
 
 .about-me img {
-  max-width: 70%;
-  margin: 0 15% 25px 15%;
+  max-width: 50%;
+  margin: 0 4% 4% 0;
   border-radius: 7px;
+  float: left;
 }
 
 @media screen and (max-width: 900px) {

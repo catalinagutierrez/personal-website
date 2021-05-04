@@ -73,6 +73,7 @@ const Portfolio = (props) => {
             options={{
               autoStart: false,
               delay: 100,
+              cursor: "",
             }}
             onInit={(typewriter) => {
               typewriter.typeString("my work at a glance.").start();
