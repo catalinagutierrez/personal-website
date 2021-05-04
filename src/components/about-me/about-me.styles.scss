@@ -1,21 +1,21 @@
 .about-me {
-    height: auto;
+  height: auto;
 }
 
 .about-body {
-    padding-top: 2%;
-    column-count: 2;
-    column-gap: 40px;
+  padding-top: 2%;
+  column-count: 2;
+  column-gap: 40px;
 }
 
 .about-me img {
-    max-width: 70%;
-    margin: 0 15% 25px 15%;
-    border-radius: 7px;
+  max-width: 70%;
+  margin: 0 15% 25px 15%;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 900px) {
-    .about-body {
-        column-count: 1;
-    }
+  .about-body {
+    column-count: 1;
+  }
 }

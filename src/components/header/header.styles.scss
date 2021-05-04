@@ -1,23 +1,23 @@
 .header {
-    background-color: #fffdf8;
-    padding-right: 2%;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1000;
+  background-color: #fffdf8;
+  padding-right: 2%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1000;
 }
 
 .header a {
-    display: flex;
-    color: #6b6b6b;
-    float: right;
-    font-size: 30px;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
+  display: flex;
+  color: #6b6b6b;
+  float: right;
+  font-size: 30px;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .header a:hover {
-    color: #b9999988;
+  color: #b9999988;
 }

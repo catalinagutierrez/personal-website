@@ -1,80 +1,80 @@
 .experience {
-    height: auto;
+  height: auto;
 }
 
 .experience-body {
+  position: relative;
+
+  .experience-entry {
     position: relative;
+    margin-left: 30px;
+    margin-top: 60px;
 
-    .experience-entry {
-        position: relative;
-        margin-left: 30px;
-        margin-top: 60px;
+    .experience-label {
+      position: relative;
+      padding-left: 10px;
+      margin-left: 50px;
 
-        .experience-label {
-            position: relative;
-            padding-left: 10px;
-            margin-left: 50px;
-
-            span {
-                font-size: 18px;
-            }
-        }
-
-        // .experience-label:after {
-        //     content: '';
-        //     display: block;
-        //     position: absolute;
-        //     width: 0;
-        //     height: 0;
-        //     border-style: solid;
-        //     border-width: 9px 9px 9px 0;
-        //     border-color: transparent #9191919a transparent transparent;
-        //     left: 0;
-        //     top: 10px;
-        //     margin-left: -9px;
-        // }
+      span {
+        font-size: 18px;
+      }
     }
+
+    // .experience-label:after {
+    //     content: '';
+    //     display: block;
+    //     position: absolute;
+    //     width: 0;
+    //     height: 0;
+    //     border-style: solid;
+    //     border-width: 9px 9px 9px 0;
+    //     border-color: transparent #9191919a transparent transparent;
+    //     left: 0;
+    //     top: 10px;
+    //     margin-left: -9px;
+    // }
+  }
 }
 
 .experience-body:before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 2px;
-    background-color: rgb(216, 216, 216);
-    background-color: #9191919a;
-    top: 20px;
-    bottom: 20px;
-    margin-left: 29px;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  background-color: rgb(216, 216, 216);
+  background-color: #9191919a;
+  top: 20px;
+  bottom: 20px;
+  margin-left: 29px;
 }
 
 @media screen and (max-width: 900px) {
-    .experience-body {
-        text-align: justify;
+  .experience-body {
+    text-align: justify;
 
-        .experience-entry {
-            margin-left: 5px;
+    .experience-entry {
+      margin-left: 5px;
 
-            .experience-label {
-                span {
-                    margin: 5px;
-                    display: block;
-                }
-            }
+      .experience-label {
+        span {
+          margin: 5px;
+          display: block;
         }
+      }
     }
+  }
 
-    .experience-body h3 {
-        text-align: left;
-        display: block;
-    }
-    
-    .experience-body h4 {
-        text-align: left;
-        display: block;
-    }
+  .experience-body h3 {
+    text-align: left;
+    display: block;
+  }
 
-    .experience-body:before {
-        margin-left: 10px;
-    }
+  .experience-body h4 {
+    text-align: left;
+    display: block;
+  }
+
+  .experience-body:before {
+    margin-left: 10px;
+  }
 }

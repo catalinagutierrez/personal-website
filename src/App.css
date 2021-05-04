@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lekton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
 
 /* 
 Para usarlas
@@ -12,78 +12,78 @@ font-family: 'Quicksand', sans-serif;
 
 html,
 body {
-    width: 100% !important;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
 }
 
 .App {
-    background-color: #fffdf8;
-    color: #6e6e6e;
-    font-family: 'Lekton', sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    line-height: 28px;
-    text-align: justify;
+  background-color: #fffdf8;
+  color: #6e6e6e;
+  font-family: "Lekton", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 28px;
+  text-align: justify;
 }
 
 h1 {
-    color: rgb(87, 87, 87);
-    font-weight: 300;
-    font-size: 40px;
-    text-align: left;
+  color: rgb(87, 87, 87);
+  font-weight: 300;
+  font-size: 40px;
+  text-align: left;
 }
 
 h2 {
-    color: rgb(87, 87, 87);
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0px 0px 10px 0px;
-    text-align: left;
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0px 0px 10px 0px;
+  text-align: left;
 }
 
 h3 {
-    color: rgb(87, 87, 87);
-    font-weight: 300;
-    font-size: 30px;
-    display: inline;
-    text-align: left;
+  color: rgb(87, 87, 87);
+  font-weight: 300;
+  font-size: 30px;
+  display: inline;
+  text-align: left;
 }
 
 h4 {
-    color: rgb(141, 141, 141);
-    font-weight: 300;
-    font-size: 20px;
-    display: inline;
-    text-align: left;
+  color: rgb(141, 141, 141);
+  font-weight: 300;
+  font-size: 20px;
+  display: inline;
+  text-align: left;
 }
 
 hr {
-    width: 30%;
-    background-color: #d4d4d4;
-    height: 1px;
-    border: none;
+  width: 30%;
+  background-color: #d4d4d4;
+  height: 1px;
+  border: none;
 }
 
 @media screen and (max-width: 499px) {
-    h1 {
-        line-height: 60px;
-    }
+  h1 {
+    line-height: 60px;
+  }
 
-    h3 {
-        text-align: left;
-        line-height: 40px;
-    }
+  h3 {
+    text-align: left;
+    line-height: 40px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
-    h1 {
-        line-height: 60px;
-    }
+  h1 {
+    line-height: 60px;
+  }
 
-    h3 {
-        text-align: left;
-        line-height: 40px;
-    }
+  h3 {
+    text-align: left;
+    line-height: 40px;
+  }
 }

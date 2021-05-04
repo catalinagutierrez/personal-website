@@ -1,31 +1,29 @@
 .introduction-content {
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: left;
-    position: absolute;
-    bottom: 20%;
-    left: 0;
-    line-height: 60px;
-    font-size:40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  line-height: 60px;
+  font-size: 40px;
 }
 
-.introduction-content span.head{
-    font-size:80px;
+.introduction-content span.head {
+  font-size: 80px;
 }
 
-@media screen and (max-width: 900px)
-{     
-    .introduction-content {
-        line-height: 40px;
-    }
+@media screen and (max-width: 900px) {
+  .introduction-content {
+    line-height: 40px;
+  }
 
-    .introduction-content span.head{
-        font-size:60px;
-        line-height: 80px;
-    }
-    
-    .introduction-content span.sub{
-        font-size:26px;
-    }
+  .introduction-content span.head {
+    font-size: 60px;
+    line-height: 80px;
+  }
 
+  .introduction-content span.sub {
+    font-size: 26px;
+  }
 }

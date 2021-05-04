@@ -1,20 +1,19 @@
 .portfolio {
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+}
+
+@media screen and (max-width: 499px) {
+  .portfolio {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .portfolio {
     flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-}
-
-
-@media screen and (max-width: 499px){
-    .portfolio {
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 900px){
-    .portfolio {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+  }
 }
