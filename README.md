@@ -5,7 +5,7 @@ Web design and implementation using ReactJS for my personal portfolio website th
 
 ## Tools & Libraries Used
 
--   **State Management:** [Hooks](https://reactjs.org/docs/hooks-intro.html)
--   **CSS Extension:** [SASS](https://sass-lang.com/)
--   **Modal Handling:** [Bootstrap](https://react-bootstrap.github.io/)
+-   State Management: [Hooks](https://reactjs.org/docs/hooks-intro.html)
+-   CSS Extension: [SASS](https://sass-lang.com/)
+-   Modal Handling: [Bootstrap](https://react-bootstrap.github.io/)
 
