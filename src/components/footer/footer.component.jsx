@@ -6,7 +6,7 @@ const Footer = () => (
     <hr />
     <div className="footer-content">
       <h3>
-        contact me any time, i'm happy to connect.
+        Contact me any time, I'm happy to connect.
         <br />
       </h3>
       cgutierrezm95@gmail.com

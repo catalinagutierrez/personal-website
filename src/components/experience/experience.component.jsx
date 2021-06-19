@@ -21,7 +21,7 @@ const Experience = (props) => {
                 cursor: "",
               }}
               onInit={(typewriter) => {
-                typewriter.typeString("my journey so far.").start();
+                typewriter.typeString("My journey so far.").start();
               }}
             />
           </h2>
@@ -33,7 +33,19 @@ const Experience = (props) => {
         <div className="animation" data-aos="fade-left">
           <article className="experience-entry">
             <div className="experience-label">
-              <h3>northeastern university </h3>
+              <h3>Boston Scientific </h3>
+              <h4>May 2021 - August 2021</h4>
+              <p>
+                Currently working as an intern at Boston Scientific with a
+                systems evaluation engineering team.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div className="animation" data-aos="fade-left">
+          <article className="experience-entry">
+            <div className="experience-label">
+              <h3>Northeastern University </h3>
               <h4>January 2021 - December 2022</h4>
               <p>
                 Currently working towards a master's degree in computer science
@@ -45,7 +57,7 @@ const Experience = (props) => {
         <div className="animation" data-aos="fade-left">
           <article className="experience-entry">
             <div className="experience-label">
-              <h3>escafandra </h3>
+              <h3>Escafandra </h3>
               <h4>July 2019 - August 2020</h4>
               <p>
                 Worked remotely as a full stack developer. The company offers a
@@ -61,7 +73,7 @@ const Experience = (props) => {
         <div className="animation" data-aos="fade-left">
           <article className="experience-entry">
             <div className="experience-label">
-              <h3>northwestern university </h3>
+              <h3>Northwestern University </h3>
               <h4>January 2019 - June 2019</h4>
               <p>
                 Worked as research assistant at Miller Laboratory of Limb Motor
@@ -74,7 +86,7 @@ const Experience = (props) => {
         <div className="animation" data-aos="fade-left">
           <article className="experience-entry">
             <div className="experience-label">
-              <h3>EIA university </h3>
+              <h3>EIA University </h3>
               <h4>July 2014 - December 2019</h4>
               <p>Obtained my bachelors degree in biomedical engineering.</p>
             </div>

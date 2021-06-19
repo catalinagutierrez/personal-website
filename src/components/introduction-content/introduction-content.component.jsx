@@ -12,13 +12,13 @@ const IntroductionContent = () => (
       onInit={(typewriter) => {
         typewriter
           .pauseFor(400)
-          .typeString("<span class='head'>hi,</span>")
+          .typeString("<span class='head'>Hi,</span>")
           .pauseFor(300)
-          .typeString("<span class='head'> i'm Catalina.</span>")
+          .typeString("<span class='head'> I'm Catalina.</span>")
           .pauseFor(1200)
           .changeDelay(30)
           .typeString(
-            "<span class='sub'><br>a biomedical engineer who fell in love with software development.</span>"
+            "<span class='sub'><br>A biomedical engineer who fell in love with software development.</span>"
           )
           .start();
       }}

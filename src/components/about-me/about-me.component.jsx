@@ -21,7 +21,7 @@ const AboutMe = (props) => {
                 cursor: "",
               }}
               onInit={(typewriter) => {
-                typewriter.typeString("about me.").start();
+                typewriter.typeString("About me.").start();
               }}
             />
           </h2>
